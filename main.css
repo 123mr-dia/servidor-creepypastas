@@ -1,0 +1,69 @@
+:root {
+    --colorMain: #868686;
+    --colorSecond: #001E9C;
+}
+
+::selection {
+    background: #F6F6F6;
+    color: #0A71DC;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background-image: url(https://i.ibb.co/qCCgT5q/Creepypasta-Portada-1600x900.jpg);
+    /* font-family: 'Nunito', sans-serif; */
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+h1 {
+    color: #0A71DC;
+    font-size: 5rem;
+    text-align: center;
+    text-shadow: 0px 0px 10px #F6F6F6;
+}
+
+h2 {
+    color: #001E9C;
+    font-size: 3rem;
+    text-shadow: 0px 0px 10px #F6F6F6;
+}
+
+.containerRules {
+    margin: 20px;
+}
+
+.containerRules ul {
+    color: #FF0000;
+    list-style-type:decimal;
+    font-size: 3rem;
+}
+.text {
+    margin: 10px;
+}
+
+a {
+    font-size: 3rem;
+    color: #F6F6F6;
+}
+
+span {
+    color: #F6F6F6;
+}
+
+textarea  {
+width: 100vw;
+height: 211px;
+}
+
+/* Media query */
+/* @media   (min-width:480px) {
+   body {
+       font-size: 1rem;
+       background-image: none;
+       background: #868686;
+   }
+} */
